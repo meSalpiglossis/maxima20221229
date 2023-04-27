@@ -44,6 +44,12 @@ public class WebBrowser {
         return driver;
     }
 
+    public static void openLink(String link) {
+        if (driver != null) {
+            driver.get(link);
+        }
+    }
+
     public static void closeWebBrowser() {
         if (driver != null) {
             driver.quit();

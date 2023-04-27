@@ -1,13 +1,13 @@
 package tests;
 
 import base.TestBase;
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertTrue;
-
 import objects.controls.MainMenu;
 import objects.pages.MainPage;
 import objects.pages.SubcategoryPage;
+
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertTrue;
 
 public class SubcategoryTest extends TestBase {
 

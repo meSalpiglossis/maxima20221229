@@ -3,6 +3,7 @@ package tests;
 import base.TestBase;
 import objects.pages.MainPage;
 import objects.pages.RubberDucksPage;
+
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
